@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://brianlaitop.github.io/2022/06/18/My-New-Post/</loc>
+    
+    <lastmod>2022-06-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://brianlaitop.github.io/about/index.html</loc>
+    
+    <lastmod>2022-06-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://brianlaitop.github.io/2022/06/18/hello-world/</loc>
+    
+    <lastmod>2022-06-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  <url>
+    <loc>https://brianlaitop.github.io/</loc>
+    <lastmod>2022-06-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>https://brianlaitop.github.io/tags/%E6%9E%B6%E7%AB%99%E5%BF%83%E5%BE%97/</loc>
+    <lastmod>2022-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+
+  
+</urlset>
