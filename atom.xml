@@ -6,7 +6,7 @@
   <link href="https://grizzlybr9192.github.io/atom.xml" rel="self"/>
   
   <link href="https://grizzlybr9192.github.io/"/>
-  <updated>2022-06-19T08:24:12.119Z</updated>
+  <updated>2022-06-19T14:56:24.276Z</updated>
   <id>https://grizzlybr9192.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>e926. 跳脫字元</title>
+    <link href="https://grizzlybr9192.github.io/2022/06/19/e926-%E8%B7%B3%E8%84%AB%E5%AD%97%E5%85%83/"/>
+    <id>https://grizzlybr9192.github.io/2022/06/19/e926-%E8%B7%B3%E8%84%AB%E5%AD%97%E5%85%83/</id>
+    <published>2022-06-19T14:48:52.000Z</published>
+    <updated>2022-06-19T14:56:24.276Z</updated>
+    
+    <content type="html"><![CDATA[<p>前往題目：<a href="https://zerojudge.tw/ShowProblem?problemid=e926">e926. 跳脫字元</a></p><h2 id="解題思路"><a href="#解題思路" class="headerlink" title="解題思路"></a>解題思路</h2><p>一看到題目就看見”顏文字”，讓我這個不太常使用顏文字的人嚇到了，但仔細一讀題，發現其實難度偏簡單，總之他就只是要我們輸出那些字元而已嘛，看看如何解題吧!</p><h2 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼"></a>程式碼</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line"></span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line">cout&lt;&lt;&quot;|&#x27;o&#x27;|&quot;&lt;&lt;endl&lt;&lt;&quot;\\^_^/&quot;&lt;&lt;endl&lt;&lt;&quot;(\&quot;o\&quot;)&quot;&lt;&lt;endl&lt;&lt;&quot;[-%-]&quot;&lt;&lt;endl;</span><br><span class="line"></span><br><span class="line">return 0;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>其實…就只是簡單的cout!</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;前往題目：&lt;a href=&quot;https://zerojudge.tw/ShowProblem?problemid=e926&quot;&gt;e926. 跳脫字元&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;解題思路&quot;&gt;&lt;a href=&quot;#解題思路&quot; class=&quot;headerlink&quot; title=</summary>
+      
+    
+    
+    
+    
+    <category term="ZeroJudge解題" scheme="https://grizzlybr9192.github.io/tags/ZeroJudge%E8%A7%A3%E9%A1%8C/"/>
+    
+  </entry>
   
   <entry>
     <title>a004. 文文的求婚</title>
