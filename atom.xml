@@ -109,4 +109,26 @@
     
   </entry>
   
+  <entry>
+    <title>第一篇文章--架站初體驗</title>
+    <link href="https://grizzlybr9192.github.io/2022/06/18/My-New-Post/"/>
+    <id>https://grizzlybr9192.github.io/2022/06/18/My-New-Post/</id>
+    <published>2022-06-18T10:20:30.000Z</published>
+    <updated>2022-06-19T08:11:08.314Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="My-First-Post"><a href="#My-First-Post" class="headerlink" title="My First Post"></a>My First Post</h2><p>第一次透過Git還有相關程式來架站，其實讓我感到有一種新鮮感，至於為什麼我們選會選用Github架站呢?請見底下的說明!</p><h2 id="你是誰"><a href="#你是誰" class="headerlink" title="你是誰?"></a>你是誰?</h2><p>我的筆名是棕熊，我來自台灣新北市，目前是一位高中生，目前已在Blogger發布超過8篇文章，或許對您來說沒甚麼，但這對於我來說意義重大，因為這是少數我能夠堅持下去的嗜好。</p><h2 id="為什麼選用Github"><a href="#為什麼選用Github" class="headerlink" title="為什麼選用Github?"></a>為什麼選用Github?</h2><p>其實我們一開始是想透過PHP來進行架站，只是我們發現到後面會有一些技術及特殊的軟體是我們難以理解及運用的，所以我們轉念一想，決定利用Github來進行架站，因為對我們而言，使用Github相對而言是比較簡單的選項，而且網路上的教學文章多，因此我們認為這對我們是比較合適的。</p><h2 id="你的架站動機"><a href="#你的架站動機" class="headerlink" title="你的架站動機?"></a>你的架站動機?</h2><p>我其實本來就有寫過部落格，但是礙於「懶惰、覺得麻煩」我放棄了，希望架設這個部落格可以當作給自己一個機會，讓自己可以持續寫作。</p><hr>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;My-First-Post&quot;&gt;&lt;a href=&quot;#My-First-Post&quot; class=&quot;headerlink&quot; title=&quot;My First Post&quot;&gt;&lt;/a&gt;My First Post&lt;/h2&gt;&lt;p&gt;第一次透過Git還有相關程式來架站，其實讓我感到有一</summary>
+      
+    
+    
+    
+    
+    <category term="架站心得" scheme="https://grizzlybr9192.github.io/tags/%E6%9E%B6%E7%AB%99%E5%BF%83%E5%BE%97/"/>
+    
+  </entry>
+  
 </feed>
