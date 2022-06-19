@@ -6,7 +6,7 @@
   <link href="https://brianlaitop.github.io/atom.xml" rel="self"/>
   
   <link href="https://brianlaitop.github.io/"/>
-  <updated>2022-06-19T03:12:46.866Z</updated>
+  <updated>2022-06-19T05:01:39.438Z</updated>
   <id>https://brianlaitop.github.io/</id>
   
   <author>
@@ -17,13 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>第一篇文章--架站初體驗</title>
-    <link href="https://brianlaitop.github.io/2022/06/18/My-New-Post/"/>
-    <id>https://brianlaitop.github.io/2022/06/18/My-New-Post/</id>
-    <published>2022-06-18T10:20:30.000Z</published>
-    <updated>2022-06-19T03:12:46.866Z</updated>
+    <title>d069. 格瑞哥里的煩惱 (t 行版)</title>
+    <link href="https://brianlaitop.github.io/2022/06/19/d069.%20%E6%A0%BC%E7%91%9E%E5%93%A5%E9%87%8C%E7%9A%84%E7%85%A9%E6%83%B1%20(t%20%E8%A1%8C%E7%89%88)/"/>
+    <id>https://brianlaitop.github.io/2022/06/19/d069.%20%E6%A0%BC%E7%91%9E%E5%93%A5%E9%87%8C%E7%9A%84%E7%85%A9%E6%83%B1%20(t%20%E8%A1%8C%E7%89%88)/</id>
+    <published>2022-06-19T04:30:37.000Z</published>
+    <updated>2022-06-19T05:01:39.438Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="My-First-Post"><a href="#My-First-Post" class="headerlink" title="My First Post"></a>My First Post</h2><p>第一次透過Git還有相關程式來架站，其實讓我感到有一種新鮮感，至於為什麼我們選會選用Github架站呢?請見底下的說明!</p><h2 id="你是誰"><a href="#你是誰" class="headerlink" title="你是誰?"></a>你是誰?</h2><p>我的筆名是棕熊，我來自台灣新北市，目前是一位高中生，目前已在Blogger發布超過8篇文章，或許對您來說沒甚麼，但這對於我來說意義重大，因為這是少數我能夠堅持下去的嗜好。</p><h2 id="為什麼選用Github"><a href="#為什麼選用Github" class="headerlink" title="為什麼選用Github?"></a>為什麼選用Github?</h2><p>其實我們一開始是想透過PHP來進行架站，只是我們發現到後面會有一些技術及特殊的軟體是我們難以理解及運用的，所以我們轉念一想，決定利用Github來進行架站，因為對我們而言，使用Github相對而言是比較簡單的選項，而且網路上的教學文章多，因此我們認為這對我們是比較合適的。</p><h2 id="你的架站動機"><a href="#你的架站動機" class="headerlink" title="你的架站動機?"></a>你的架站動機?</h2><p>我其實本來就有寫過部落格，但是礙於「懶惰、覺得麻煩」我放棄了，希望架設著個部落格可以當作給自己一個機會，讓自己可以持續寫作。</p><hr>]]></content>
+    <content type="html"><![CDATA[<p>d069. 格瑞哥里的煩惱 (t 行版)</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line">int t,n;</span><br><span class="line">cin&gt;&gt;t;</span><br><span class="line">while(t--)&#123;</span><br><span class="line">cin&gt;&gt;n;</span><br><span class="line">if((n%4==0&amp;&amp;n%100&gt;0)||n%400==0) </span><br><span class="line">cout&lt;&lt;&quot;a leap year&quot;&lt;&lt;endl;</span><br><span class="line">else</span><br><span class="line">cout&lt;&lt;&quot;a normal year&quot;&lt;&lt;endl;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;d069. 格瑞哥里的煩惱 (t 行版)&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span clas</summary>
+      
+    
+    
+    
+    
+    <category term="ZeroJudge解題" scheme="https://brianlaitop.github.io/tags/ZeroJudge%E8%A7%A3%E9%A1%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第一篇文章--架站初體驗</title>
+    <link href="https://brianlaitop.github.io/2022/06/18/%E7%B6%B2%E7%AB%99%E6%95%85%E4%BA%8B/"/>
+    <id>https://brianlaitop.github.io/2022/06/18/%E7%B6%B2%E7%AB%99%E6%95%85%E4%BA%8B/</id>
+    <published>2022-06-18T10:20:30.000Z</published>
+    <updated>2022-06-19T03:48:28.065Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="My-First-Post"><a href="#My-First-Post" class="headerlink" title="My First Post"></a>My First Post</h2><p>第一次透過Git還有相關程式來架站，其實讓我感到有一種新鮮感，至於為什麼我們選會選用Github架站呢?請見底下的說明!</p><h2 id="你是誰"><a href="#你是誰" class="headerlink" title="你是誰?"></a>你是誰?</h2><p>我的筆名是棕熊，我來自台灣新北市，目前是一位高中生，目前已在Blogger發布超過8篇文章，或許對您來說沒甚麼，但這對於我來說意義重大，因為這是少數我能夠堅持下去的嗜好。</p><h2 id="為什麼選用Github"><a href="#為什麼選用Github" class="headerlink" title="為什麼選用Github?"></a>為什麼選用Github?</h2><p>其實我們一開始是想透過PHP來進行架站，只是我們發現到後面會有一些技術及特殊的軟體是我們難以理解及運用的，所以我們轉念一想，決定利用Github來進行架站，因為對我們而言，使用Github相對而言是比較簡單的選項，而且網路上的教學文章多，因此我們認為這對我們是比較合適的。</p><h2 id="你的架站動機"><a href="#你的架站動機" class="headerlink" title="你的架站動機?"></a>你的架站動機?</h2><p>我其實本來就有寫過部落格，但是礙於「懶惰、覺得麻煩」我放棄了，希望架設這個部落格可以當作給自己一個機會，讓自己可以持續寫作。</p><hr>]]></content>
     
     
       
