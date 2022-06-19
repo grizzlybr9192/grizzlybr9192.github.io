@@ -6,7 +6,7 @@
   <link href="https://brianlaitop.github.io/atom.xml" rel="self"/>
   
   <link href="https://brianlaitop.github.io/"/>
-  <updated>2022-06-19T05:01:39.438Z</updated>
+  <updated>2022-06-19T05:11:17.397Z</updated>
   <id>https://brianlaitop.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>d498. 我不說髒話</title>
+    <link href="https://brianlaitop.github.io/2022/06/19/d498-%E6%88%91%E4%B8%8D%E8%AA%AA%E9%AB%92%E8%A9%B1/"/>
+    <id>https://brianlaitop.github.io/2022/06/19/d498-%E6%88%91%E4%B8%8D%E8%AA%AA%E9%AB%92%E8%A9%B1/</id>
+    <published>2022-06-19T05:09:46.000Z</published>
+    <updated>2022-06-19T05:11:17.397Z</updated>
+    
+    <content type="html"><![CDATA[<p>題目網址：<a href="https://zerojudge.tw/ShowProblem?problemid=d498">https://zerojudge.tw/ShowProblem?problemid=d498</a></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">#include &lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">int n;</span><br><span class="line">cin&gt;&gt;n;</span><br><span class="line">for(n&gt;0;int i=n ;n--)&#123;</span><br><span class="line">cout&lt;&lt;&quot;I don&#x27;t say swear words!&quot;&lt;&lt;endl;</span><br><span class="line">&#125;</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;題目網址：&lt;a href=&quot;https://zerojudge.tw/ShowProblem?problemid=d498&quot;&gt;https://zerojudge.tw/ShowProblem?problemid=d498&lt;/a&gt;&lt;/p&gt;
+&lt;figure class=&quot;hig</summary>
+      
+    
+    
+    
+    
+    <category term="ZeroJudge解題" scheme="https://brianlaitop.github.io/tags/ZeroJudge%E8%A7%A3%E9%A1%8C/"/>
+    
+  </entry>
   
   <entry>
     <title>d069. 格瑞哥里的煩惱 (t 行版)</title>
