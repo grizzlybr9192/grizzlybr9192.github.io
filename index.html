@@ -166,6 +166,80 @@
 </article>
 
 
+  <article id="post-a004-文文的求婚" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/06/19/a004-%E6%96%87%E6%96%87%E7%9A%84%E6%B1%82%E5%A9%9A/">a004. 文文的求婚</a>
+    </h1>
+  
+
+
+      </header>
+    
+    <div class="article-meta">
+      
+      <span class="article-date">
+  <i class="fa fa-date"></i>
+  <time class="dt-published" datetime="2022-06-19T07:36:12.000Z" itemprop="datePublished">2022年06月19日</time>
+</span>
+      
+      
+      
+<a href="/2022/06/19/a004-%E6%96%87%E6%96%87%E7%9A%84%E6%B1%82%E5%A9%9A/#comments" class="article-comment-link">
+  
+  <i class="fa fa-commt"></i>
+  Guestbook
+</a>
+
+
+    </div>
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h2 id="解題思路"><a href="#解題思路" class="headerlink" title="解題思路"></a>解題思路</h2><p>首先必須先搞懂閏年的規則、規律。</p>
+<ol>
+<li>如果西元年的年份是4的倍數但非100的倍數，為閏年。</li>
+<li>西元年份為400的倍數為閏年。</li>
+</ol>
+<p>所以在程式碼當中我們要判斷輸入的年份是否為閏年。</p>
+<h2 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼"></a>程式碼</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line">int y; //年份以y表示</span><br><span class="line">while (cin &gt;&gt; y)</span><br><span class="line">&#123;</span><br><span class="line">if (y % 400 == 0) //檢查y是否為400的倍數 (第2.項規則)</span><br><span class="line">cout &lt;&lt; &quot;閏年&quot; &lt;&lt; endl;</span><br><span class="line">else if ((y % 4 == 0) &amp;&amp; (y % 100 != 0)) //檢查y是否為4的倍數但不是100的倍數</span><br><span class="line">cout &lt;&lt; &quot;閏年&quot; &lt;&lt;endl;</span><br><span class="line">else cout &lt;&lt; &quot;平年&quot; &lt;&lt; endl; //剩餘的就是平年</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+        
+        
+          <blockquote id="copyright">
+              <p>Original link: <a href="https://grizzlybr9192.github.io/index.html">https://grizzlybr9192.github.io/index.html</a></p>
+              <p>Copyright Notice: 依 CC BY-NC-SA 4.0 授權.</p>
+          </blockquote>
+        
+      
+    </div>
+    <footer class="article-footer">
+      
+        <div class="article-tag-wrap">
+          
+
+          
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ZeroJudge%E8%A7%A3%E9%A1%8C/" rel="tag">ZeroJudge解題</a></li></ul>
+
+          
+    <div class="social-share">
+      <span>Share:</span>
+    </div>
+
+
+
+        </div>
+      
+      
+      
+    </footer>
+  </div>
+</article>
+
+
   <article id="post-d498-我不說髒話" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-inner">
     
@@ -316,6 +390,10 @@
       <ul>
         
           <li>
+            <a href="/2022/06/19/a004-%E6%96%87%E6%96%87%E7%9A%84%E6%B1%82%E5%A9%9A/">a004. 文文的求婚</a>
+          </li>
+        
+          <li>
             <a href="/2022/06/19/d498-%E6%88%91%E4%B8%8D%E8%AA%AA%E9%AB%92%E8%A9%B1/">d498. 我不說髒話</a>
           </li>
         
@@ -349,7 +427,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title"><i class="fa fa-archive"></i> Archive</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/">2022年</a><span class="archive-list-count">3</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/">2022年</a><span class="archive-list-count">4</span></li></ul>
     </div>
   </div>
 
@@ -359,7 +437,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title"><i class="fa fa-tag"></i> Tags</h3>
     <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/ZeroJudge%E8%A7%A3%E9%A1%8C/" rel="tag">ZeroJudge解題</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9E%B6%E7%AB%99%E5%BF%83%E5%BE%97/" rel="tag">架站心得</a><span class="tag-list-count">1</span></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/ZeroJudge%E8%A7%A3%E9%A1%8C/" rel="tag">ZeroJudge解題</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9E%B6%E7%AB%99%E5%BF%83%E5%BE%97/" rel="tag">架站心得</a><span class="tag-list-count">1</span></li></ul>
     </div>
   </div>
 

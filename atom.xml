@@ -6,7 +6,7 @@
   <link href="https://grizzlybr9192.github.io/atom.xml" rel="self"/>
   
   <link href="https://grizzlybr9192.github.io/"/>
-  <updated>2022-06-19T07:26:16.647Z</updated>
+  <updated>2022-06-19T08:02:12.658Z</updated>
   <id>https://grizzlybr9192.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>a004. 文文的求婚</title>
+    <link href="https://grizzlybr9192.github.io/2022/06/19/a004-%E6%96%87%E6%96%87%E7%9A%84%E6%B1%82%E5%A9%9A/"/>
+    <id>https://grizzlybr9192.github.io/2022/06/19/a004-%E6%96%87%E6%96%87%E7%9A%84%E6%B1%82%E5%A9%9A/</id>
+    <published>2022-06-19T07:36:12.000Z</published>
+    <updated>2022-06-19T08:02:12.658Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="解題思路"><a href="#解題思路" class="headerlink" title="解題思路"></a>解題思路</h2><p>首先必須先搞懂閏年的規則、規律。</p><ol><li>如果西元年的年份是4的倍數但非100的倍數，為閏年。</li><li>西元年份為400的倍數為閏年。</li></ol><p>所以在程式碼當中我們要判斷輸入的年份是否為閏年。</p><h2 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼"></a>程式碼</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line">int y; //年份以y表示</span><br><span class="line">while (cin &gt;&gt; y)</span><br><span class="line">&#123;</span><br><span class="line">if (y % 400 == 0) //檢查y是否為400的倍數 (第2.項規則)</span><br><span class="line">cout &lt;&lt; &quot;閏年&quot; &lt;&lt; endl;</span><br><span class="line">else if ((y % 4 == 0) &amp;&amp; (y % 100 != 0)) //檢查y是否為4的倍數但不是100的倍數</span><br><span class="line">cout &lt;&lt; &quot;閏年&quot; &lt;&lt;endl;</span><br><span class="line">else cout &lt;&lt; &quot;平年&quot; &lt;&lt; endl; //剩餘的就是平年</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;解題思路&quot;&gt;&lt;a href=&quot;#解題思路&quot; class=&quot;headerlink&quot; title=&quot;解題思路&quot;&gt;&lt;/a&gt;解題思路&lt;/h2&gt;&lt;p&gt;首先必須先搞懂閏年的規則、規律。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;如果西元年的年份是4的倍數但非100的倍數，為閏年。&lt;/li&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="ZeroJudge解題" scheme="https://grizzlybr9192.github.io/tags/ZeroJudge%E8%A7%A3%E9%A1%8C/"/>
+    
+  </entry>
   
   <entry>
     <title>d498. 我不說髒話</title>

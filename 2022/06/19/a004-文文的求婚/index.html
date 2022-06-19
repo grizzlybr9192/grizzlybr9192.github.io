@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   
   
-  <title>tag: 架站心得 | 棕熊の窩</title>
+  <title>a004. 文文的求婚 | 棕熊の窩</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
     <meta name="description" content="blog">
@@ -90,35 +90,130 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-
-  
-  
+        <section id="main"><article id="post-a004-文文的求婚" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-inner">
     
     
-    <section class="archives-wrap">
-      <div class="archive-title">
+      <header class="article-header">
         
-          <i class="fa fa-tag"></i>
-          架站心得
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      a004. 文文的求婚
+    </h1>
+  
+
+
+      </header>
+    
+    <div class="article-meta">
+      
+      <span class="article-date">
+  <i class="fa fa-date"></i>
+  <time class="dt-published" datetime="2022-06-19T07:36:12.000Z" itemprop="datePublished">2022年06月19日</time>
+</span>
+      
+      
+        <span class="article-views">
+  <i class="fa fa-views"></i>
+  <i id="busuanzi_container_page_pv">
+      <i id="busuanzi_value_page_pv"></i>
+  </i>
+</span>
+
+      
+      
+<a href="/2022/06/19/a004-%E6%96%87%E6%96%87%E7%9A%84%E6%B1%82%E5%A9%9A/#comments" class="article-comment-link">
+  
+    
+    
+    
+    
+    
+  
+  <i class="fa fa-commt"></i>
+  Guestbook
+</a>
+
+
+    </div>
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h2 id="解題思路"><a href="#解題思路" class="headerlink" title="解題思路"></a>解題思路</h2><p>首先必須先搞懂閏年的規則、規律。</p>
+<ol>
+<li>如果西元年的年份是4的倍數但非100的倍數，為閏年。</li>
+<li>西元年份為400的倍數為閏年。</li>
+</ol>
+<p>所以在程式碼當中我們要判斷輸入的年份是否為閏年。</p>
+<h2 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼"></a>程式碼</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line">int y; //年份以y表示</span><br><span class="line">while (cin &gt;&gt; y)</span><br><span class="line">&#123;</span><br><span class="line">if (y % 400 == 0) //檢查y是否為400的倍數 (第2.項規則)</span><br><span class="line">cout &lt;&lt; &quot;閏年&quot; &lt;&lt; endl;</span><br><span class="line">else if ((y % 4 == 0) &amp;&amp; (y % 100 != 0)) //檢查y是否為4的倍數但不是100的倍數</span><br><span class="line">cout &lt;&lt; &quot;閏年&quot; &lt;&lt;endl;</span><br><span class="line">else cout &lt;&lt; &quot;平年&quot; &lt;&lt; endl; //剩餘的就是平年</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+        
+            <div id="toc-article">
+                
+  <div class="widget-wrap" id="toc-wrap">
+    <h3 class="widget-title"><i class="fa fa-toc"></i> Contents</h3>
+    <div class="widget">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%A3%E9%A1%8C%E6%80%9D%E8%B7%AF"><span class="toc-text">解題思路</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%A8%8B%E5%BC%8F%E7%A2%BC"><span class="toc-text">程式碼</span></a></li></ol>
+    </div>
+  </div>
+
+
+            </div>
+        
+        
+          <blockquote id="copyright">
+              <p>Original link: <a href="https://grizzlybr9192.github.io/2022/06/19/a004-文文的求婚/">https://grizzlybr9192.github.io/2022/06/19/a004-文文的求婚/</a></p>
+              <p>Copyright Notice: 依 CC BY-NC-SA 4.0 授權.</p>
+          </blockquote>
+        
+      
+    </div>
+    <footer class="article-footer">
+      
+        <div class="article-tag-wrap">
+          
+
+          
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ZeroJudge%E8%A7%A3%E9%A1%8C/" rel="tag">ZeroJudge解題</a></li></ul>
+
+          
+    <div class="social-share">
+      <span>Share:</span>
+    </div>
+
+
+
+        </div>
+      
+      
+        
+<nav id="article-nav">
+  
+    <a href="/2022/06/19/d498-%E6%88%91%E4%B8%8D%E8%AA%AA%E9%AB%92%E8%A9%B1/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">older</strong>
+      <div class="article-nav-title">
+        
+          d498. 我不說髒話
         
       </div>
-      <div class="archives">
-  
-  <ul class="archive-article archive-type-post">
-  <li class="archive-article-inner">
-    <a href="/2022/06/18/%E7%B6%B2%E7%AB%99%E6%95%85%E4%BA%8B/">
-      <time class="dt-published" datetime="2022-06-18T10:20:30.000Z" itemprop="datePublished">2022年06月18日</time>
-      | <span class="archive-article-title">第一篇文章--架站初體驗</span>
     </a>
-  </li>
-</ul>
+  
+  
+</nav>
+
+      
+      
+        
 
 
 
-  </div></section>
 
 
+
+
+
+      
+    </footer>
+  </div>
+</article>
 </section>
         
           <aside id="sidebar">
@@ -265,6 +360,16 @@
 
 
 
+
+  
+    
+<script src="/localshare/js/social-share.js"></script>
+
+    
+<script src="/localshare/js/qrcode.js"></script>
+
+  
+  
 
 
 
